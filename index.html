@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liked Music</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">
+        <img src = "https://music.youtube.com/img/on_platform_logo_dark.svg" width = "100px" height = "40px" alt="YouTube Music" />
+    </div>
+    <nav>
+      <a href="#"> Home</a>
+      <a href="#"> Explore</a>
+      <a href="#"> Library</a>
+      <button class="new-playlist">+ New playlist</button>
+      <div class="playlists">
+        <div class="playlist active">Liked music</div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="main">
+    <div class="search-bar">
+      <input type="text" placeholder="Search songs, albums, artists, podcasts" />
+    </div>
+    <div class ="playlist-header">
+        <div class="playlist-cover">
+            <div class="cover">
+                <img src="https://www.gstatic.com/youtube/media/ytm/images/pbg/liked-music-@1200.png" alt="Liked Music Cover">
+            </div>
+            <div class="playlist-info">
+                <h2>Liked music</h2>
+                <p id="user">John Doe</p>
+                <p>Auto playlist • 2025</p>
+                <p id="totalInfo"></p>
+                <p>Music that you like in any YouTube app will be shown here. You can change this in Settings.</p>
+            </div>
+                    <!-- Mood Playlist Button -->
+            <button id="openMoodModal">+ Mood Playlist</button>
+
+            <!-- Mood Generator Popup -->
+            <div id="moodModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Generate Playlist by Mood</h3>
+                    <select id="mood-select">
+                    <option value="">Select Mood</option>
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="chill">Chill</option>
+                    <option value="energetic">Energetic</option>
+                    <option value="romantic">Romantic</option>
+                    </select>
+                    <button id="generateButton">Generate</button>
+                    <button id="saveMoodPlaylist" style="margin-top: 10px;">💾 Save to Playlist</button>
+                    <div class="playlist-songs"> <!-- Ensure this container exists -->
+                        <!-- The playlist songs will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="songs">
+            <div class="song">
+        
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

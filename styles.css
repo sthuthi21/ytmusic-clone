@@ -1,0 +1,284 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #121212;
+    color: white;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+nav a, .new-playlist, .playlist {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.new-playlist {
+    margin: 4px 2px;
+    background: #282828;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.playlists {
+    margin-top: 20px;
+}
+
+.playlist.active {
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 35%;
+    padding: 10px;
+    background: #222;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin-left: 45px;
+    border: 1px solid white;
+
+}
+
+.playlist-header {
+    display: flex; /* Arrange cover/info and songs horizontally */
+    align-items: flex-start; /* Align items at the top */
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.playlist-cover {
+    width: 27%; /* Cover and info container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.cover {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.playlist-info {
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.playlist-info h2 {
+    margin-bottom: 5px;
+    margin-top: -10px;
+    font-size: 1.3em;
+}
+#user{
+    font-size: 0.7em;
+    color: white;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.playlist-info p {
+    color: #838282;
+    font-size: 0.8em;
+    margin-bottom: 3px;
+}
+
+.songs {
+    margin-top: 30px;
+    width: 70%; /* Songs section width */
+    padding-left: 20px;
+    max-height: 75vh; /* You can adjust this value as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.songs::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.songs::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+  
+.songs::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: #1e1e1e;*/
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.song .info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.song .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.artist {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.like {
+    margin-left: auto; /* Push like to the right */
+    margin-right: 10px; /* Adjust spacing */
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #aaa;
+    flex-shrink: 0;
+    size:2px 2px 2px 2px;
+}
+.like img{
+    width: 30px;
+    height:30px;
+}
+
+.like.liked {
+    color: #1ed760;
+}
+
+.duration {
+    color: #aaa;
+    font-size: 0.9em;
+    flex-shrink: 0;
+}
+
+
+/*MOOD PLAYLIST POPUP*/
+
+/* Popup Modal */
+#openMoodModal{
+    margin: 4px 2px;
+    background: #282828;
+    border: none;
+    padding: 10px 20px;
+    width: 60%;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .modal-content {
+    background-color: #181818;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #444;
+    width: 300px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+  
+  .modal-content select,
+  .modal-content button {
+    margin-top: 15px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .modal-content select {
+    background: #222;
+    color: white;
+  }
+  
+  .modal-content button {
+    background-color: #1ed760;
+    color: black;
+    font-weight: bold;
+  }
+  

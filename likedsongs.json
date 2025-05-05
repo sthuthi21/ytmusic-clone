@@ -1,0 +1,309 @@
+[
+    {
+      "title": "Malare",
+      "artist": "Vineeth Sreenivasan",
+      "album": "Premam",
+      "language": "Malayalam",
+      "mood": "romantic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/e0/80/65/e0806547-d34c-8287-35db-13956edc7a0a/source/100x100bb.jpg",
+      "duration": "5:14"
+    },
+    {
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "Divide",
+      "language": "English",
+      "mood": "energetic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/19/ef/0f/19ef0f91-761c-8ff0-c27d-d77c25b4f3b4/source/100x100bb.jpg",
+      "duration": "3:53"
+    },
+    {
+      "title": "Tum Hi Ho",
+      "artist": "Arijit Singh",
+      "album": "Aashiqui 2",
+      "language": "Hindi",
+      "mood": "sad",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ba/51/c4/ba51c4d1-b32f-309f-7d20-f5ac05de958d/source/100x100bb.jpg",
+      "duration": "4:22"
+    },
+    {
+      "title": "Dynamite",
+      "artist": "BTS",
+      "album": "Dynamite (DayTime Version)",
+      "language": "K-pop",
+      "mood": "happy",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f2/74/9a/f2749a9f-50b5-57e6-536e-6b89f8e62f33/source/100x100bb.jpg",
+      "duration": "3:19"
+    },
+    {
+      "title": "Rowdy Baby",
+      "artist": "Dhanush, Dhee",
+      "album": "Maari 2",
+      "language": "Tamil",
+      "mood": "fun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/20/5f/83/205f8374-60ed-7601-7f13-6b6599ef6df8/source/100x100bb.jpg",
+      "duration": "4:41"
+    },
+    {
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "album": "Divide",
+      "language": "English",
+      "mood": "romantic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/19/ef/0f/19ef0f91-761c-8ff0-c27d-d77c25b4f3b4/source/100x100bb.jpg",
+      "duration": "4:23"
+    },
+    {
+      "title": "Ee Shishirakaalam",
+      "artist": "Karthik",
+      "album": "Mayookham",
+      "language": "Malayalam",
+      "mood": "melancholic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/2b/31/10/mzi.qbmdbntw.jpg/100x100bb.jpg",
+      "duration": "4:37"
+    },
+    {
+      "title": "Lovely",
+      "artist": "Billie Eilish & Khalid",
+      "album": "Lovely - Single",
+      "language": "English",
+      "mood": "sad",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/16/3d/0b/163d0b9a-2762-77c4-5990-328a0092f831/source/100x100bb.jpg",
+      "duration": "3:21"
+    },
+    {
+      "title": "Tera Yaar Hoon Main",
+      "artist": "Arijit Singh",
+      "album": "Sonu Ke Titu Ki Sweety",
+      "language": "Hindi",
+      "mood": "emotional",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/35/29/84/352984bb-3785-8c5f-99a1-97e2f27e3342/source/100x100bb.jpg",
+      "duration": "4:24"
+    },
+    {
+      "title": "Butter",
+      "artist": "BTS",
+      "album": "Butter",
+      "language": "K-pop",
+      "mood": "energetic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/30/b8/9c/30b89c87-71b1-351c-5698-005f0ff52cc2/source/100x100bb.jpg",
+      "duration": "2:44"
+    },
+    {
+        "title": "A Whole New World",
+        "artist": "Peabo Bryson & Regina Belle",
+        "album": "Aladdin (Original Soundtrack)",
+        "language": "English",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/74/42/d2744230-5d0d-4572-badd-28f62ecdf700/source/100x100bb.jpg",
+        "duration": "4:08"
+      },
+      {
+        "title": "Vinnaithaandi Varuvaayaa",
+        "artist": "A. R. Rahman",
+        "album": "Vinnaithaandi Varuvaayaa",
+        "language": "Tamil",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6d/4e/90/6d4e9020-15b2-8b2f-e6de-f1259a4c6f7a/source/100x100bb.jpg",
+        "duration": "5:03"
+      },
+      {
+        "title": "Numb",
+        "artist": "Linkin Park",
+        "album": "Meteora",
+        "language": "English",
+        "mood": "sad",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/02/2f/9b/022f9b31-8e55-42fa-bbe5-92cbad9de3b0/source/100x100bb.jpg",
+        "duration": "3:05"
+      },
+      {
+        "title": "Bojhena Se Bojhena",
+        "artist": "Amit Kumar, Rupal Bhatnagar",
+        "album": "Bojhena Se Bojhena",
+        "language": "Bengali",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7f/78/84/7f788442-7004-62f0-e0e9-e0ed15c70ab0/source/100x100bb.jpg",
+        "duration": "4:44"
+      },
+      {
+        "title": "Savage Love (Laxed - Siren Beat)",
+        "artist": "Jawsh 685 & Jason Derulo",
+        "album": "Savage Love (Laxed - Siren Beat)",
+        "language": "English",
+        "mood": "energetic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/60/73/946073f3-36b9-0be4-79be-fd99a3c9182e/source/100x100bb.jpg",
+        "duration": "2:55"
+      },
+      {
+        "title": "Kesariya",
+        "artist": "Arijit Singh",
+        "album": "Brahmastra: Part One – Shiva",
+        "language": "Hindi",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/27/67/2b/27672b56-e828-3069-a58d-197edb6b3cfe/source/100x100bb.jpg",
+        "duration": "5:10"
+      },
+      {
+        "title": "Believer",
+        "artist": "Imagine Dragons",
+        "album": "Evolve",
+        "language": "English",
+        "mood": "energetic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/9e/cb/a0/9ecba08a-d7fc-6047-c3ba-91f624d44a9c/source/100x100bb.jpg",
+        "duration": "3:24"
+      },
+      {
+        "title": "Channa Mereya",
+        "artist": "Arijit Singh",
+        "album": "Ae Dil Hai Mushkil",
+        "language": "Hindi",
+        "mood": "sad",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/5c/12/075c12b7-fae4-541d-0b56-d4c5a52035b4/source/100x100bb.jpg",
+        "duration": "5:23"
+      },
+      {
+        "title": "Ddu-Du Ddu-Du",
+        "artist": "BLACKPINK",
+        "album": "Square Up - EP",
+        "language": "K-pop",
+        "mood": "energetic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0f/c4/7a/0fc47a47-92ca-599b-d99f-d92da0073e69/source/100x100bb.jpg",
+        "duration": "3:29"
+      },
+      {
+        "title": "Sunflower",
+        "artist": "Post Malone, Swae Lee",
+        "album": "Spider-Man: Into the Spider-Verse (Soundtrack)",
+        "language": "English",
+        "mood": "chill",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/44/0f/c9440f31-0acb-561a-b31f-d6a1c6accc61/source/100x100bb.jpg",
+        "duration": "2:38"
+      },
+    
+      {
+        "title": "Breezeblocks",
+        "artist": "alt-J",
+        "album": "An Awesome Wave",
+        "language": "English",
+        "mood": "chill",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ff/78/94/ff7894ed-b597-8b62-b3ab-0b9f9f4f689d/source/100x100bb.jpg",
+        "duration": "3:30"
+      },
+      {
+        "title": "Enna Sona",
+        "artist": "Arijit Singh",
+        "album": "Ok Jaanu",
+        "language": "Hindi",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ab/6c/37/ab6c3782-cdf8-9908-9f33-61ad3eaf52b9/source/100x100bb.jpg",
+        "duration": "4:13"
+      },
+      {
+        "title": "You Are My Sunshine",
+        "artist": "The Late Night Alumni",
+        "album": "Late Night Alumni",
+        "language": "English",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/24/7b/c8/247bc83d-51c2-5d97-a3b6-121c3d617fd1/source/100x100bb.jpg",
+        "duration": "3:45"
+      },
+      {
+        "title": "Kothajna",
+        "artist": "Pradeep Kumar",
+        "album": "Puthumazhayai",
+        "language": "Malayalam",
+        "mood": "melancholic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7a/af/9f/7aaf9f97-fd38-9e74-78b1-8a4d0cbdd387/source/100x100bb.jpg",
+        "duration": "4:12"
+      },
+      {
+        "title": "Lose Yourself",
+        "artist": "Eminem",
+        "album": "8 Mile (Soundtrack)",
+        "language": "English",
+        "mood": "motivational",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/18/9f/4b189f9f-8a73-52ff-b3be-221d6f3780b7/source/100x100bb.jpg",
+        "duration": "5:20"
+      },
+      {
+        "title": "Vaseegara",
+        "artist": "Hariharan",
+        "album": "Minnale",
+        "language": "Tamil",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0f/c3/99/0fc399e6-bfb4-6d72-d906-3ef26d1b9d3e/source/100x100bb.jpg",
+        "duration": "5:17"
+      },
+      {
+        "title": "Taki Taki",
+        "artist": "DJ Snake, Selena Gomez, Ozuna & Cardi B",
+        "album": "Taki Taki",
+        "language": "English",
+        "mood": "energetic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/27/fe/56/27fe5646-d9f9-61db-969d-21fd5e3c2b5f/source/100x100bb.jpg",
+        "duration": "3:34"
+      },
+      {
+        "title": "Rolling in the Deep",
+        "artist": "Adele",
+        "album": "21",
+        "language": "English",
+        "mood": "empowering",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8d/a3/cd/8da3cdd2-b81e-4d56-82a5-42a100f35192/source/100x100bb.jpg",
+        "duration": "3:48"
+      },
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "album": "Divide",
+        "language": "English",
+        "mood": "energetic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/53/59/645359db-dac2-4f8f-89b0-bbe306438e4a/source/100x100bb.jpg",
+        "duration": "3:53"
+      },
+      {
+        "title": "Lover",
+        "artist": "Taylor Swift",
+        "album": "Lover",
+        "language": "English",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f1/f5/57/f1f5572f-d485-6f89-b0ff-3dbb6ad5eb32/source/100x100bb.jpg",
+        "duration": "3:41"
+      },
+      {
+        "title": "Pehli Nazar Mein",
+        "artist": "Atif Aslam",
+        "album": "Race",
+        "language": "Hindi",
+        "mood": "romantic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/d7/79/d1/d779d1c5-ccf4-4ef9-a66b-7e2d8a1ff24c/source/100x100bb.jpg",
+        "duration": "5:16"
+      },
+      {
+        "title": "Stay",
+        "artist": "Zedd, Alessia Cara",
+        "album": "Stay",
+        "language": "English",
+        "mood": "chill",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f7/a4/5b/f7a45b38-2e7f-4233-bb50-23372d2279ba/source/100x100bb.jpg",
+        "duration": "3:30"
+      },
+      {
+        "title": "Madhaniya",
+        "artist": "Neha Bhasin",
+        "album": "Madhaniya",
+        "language": "Hindi",
+        "mood": "melancholic",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2c/5a/88/2c5a88be-d6de-4d76-8769-788b13129cfc/source/100x100bb.jpg",
+        "duration": "4:29"
+      },
+      {
+        "title": "Love Yourself",
+        "artist": "Justin Bieber",
+        "album": "Purpose",
+        "language": "English",
+        "mood": "sad",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c0/67/ea/c067ea50-b88f-44a4-9c9e-cd0814013db5/source/100x100bb.jpg",
+        "duration": "4:10"
+      }
+]
