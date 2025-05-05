@@ -4,7 +4,7 @@ let currentGeneratedPlaylist = [];
 
 // Load liked songs on page load and store them
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("likedSongs.json")
+  fetch("https://raw.githubusercontent.com/sthuthi21/ytmusic-clone/master/likedsongs.json")
     .then(response => response.json())
     .then(songs => {
       likedSongs = songs;

@@ -277,8 +277,8 @@ nav a, .new-playlist, .playlist {
   }
   
   .modal-content button {
-    background-color: #1ed760;
-    color: black;
+    background-color: black;
+    color: white;
     font-weight: bold;
   }
   
